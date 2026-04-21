@@ -1,0 +1,16 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#0F0F0F"/>
+  <rect x="70" y="70" width="1460" height="1060" rx="42" fill="#1D1D1D" stroke="#FFD000" stroke-width="8"/>
+  <rect x="170" y="270" width="520" height="520" rx="24" fill="#2B2B2B"/>
+  <rect x="220" y="330" width="120" height="250" fill="#FFD000"/>
+  <rect x="380" y="330" width="120" height="250" fill="#FFD000"/>
+  <rect x="540" y="330" width="100" height="250" fill="#FFD000"/>
+  <rect x="780" y="560" width="510" height="250" rx="28" fill="#FFD000"/>
+  <rect x="1070" y="470" width="150" height="130" rx="24" fill="#F6F0D0"/>
+  <circle cx="920" cy="860" r="62" fill="#121212"/>
+  <circle cx="1190" cy="860" r="62" fill="#121212"/>
+  <circle cx="240" cy="170" r="88" fill="#FFD000" fill-opacity="0.16"/>
+  <circle cx="1370" cy="980" r="120" fill="#FFD000" fill-opacity="0.12"/>
+  <text x="120" y="170" fill="#FFD000" font-family="Arial, sans-serif" font-size="58" font-weight="700">Replace with storefront and truck photo</text>
+  <text x="120" y="1040" fill="#F6F0D0" font-family="Arial, sans-serif" font-size="42">Expected path: public/images/got-a-guy-eco-truck.svg or swap the src in content/site.ts</text>
+</svg>
