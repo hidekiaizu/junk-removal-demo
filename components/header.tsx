@@ -15,7 +15,9 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3" aria-label={`${company.name} home`}>
           <div>
             <p className="font-display text-3xl uppercase tracking-[0.08em] text-black">{company.name}</p>
-            <p className="text-sm font-medium text-muted">You point. We haul.</p>
+            <p className="mt-0.5 inline-flex rounded-md bg-brand px-3 py-1 font-display text-lg uppercase leading-none tracking-[0.06em] text-black">
+              Junk Removal
+            </p>
           </div>
         </Link>
 

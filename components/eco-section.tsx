@@ -17,7 +17,7 @@ export function EcoSection() {
           <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black via-black/70 to-transparent p-6">
             <p className="text-sm font-extrabold uppercase tracking-[0.24em] text-brand">Local collaboration</p>
             <p className="mt-2 text-sm leading-7 text-white/78">
-              Replace `public/images/got-a-guy-eco-truck.svg` with the provided storefront and truck photo.
+              Real local service with a recognizable truck and neighborhood presence you can trust.
             </p>
           </div>
         </div>

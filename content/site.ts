@@ -20,16 +20,16 @@ export const company = {
   name: "Got A Guy",
   headline: "Need junk removed?",
   supportingCopy: ["All you need to do is call a guy", "You point. We haul."],
-  phoneDisplay: "(555) 014-4289",
-  phoneHref: "tel:+15550144289",
-  textHref: "sms:+15550144289",
+  phoneDisplay: "(718) 887-1399",
+  phoneHref: "tel:+17188871399",
+  textHref: "sms:+17188871399",
   textLabel: "Text for Free Estimate",
   callLabel: "Call Now",
   email: "estimates@gotaguydemo.com",
   serviceArea: "Serving local homes, shops, offices, and job sites",
   placeholderAddress: "123 Main Street, Your City, ST 00000",
-  workerPhoto: "/images/got-a-guy-worker.svg",
-  ecoPhoto: "/images/got-a-guy-eco-truck.svg"
+  workerPhoto: "/images/IMG_6650.jpg",
+  ecoPhoto: "/images/72a4a30f9db3560da0f8b17d71cf101a2180242b0e493f12239e80669dd47007.png"
 } as const;
 
 export const navigation = [
