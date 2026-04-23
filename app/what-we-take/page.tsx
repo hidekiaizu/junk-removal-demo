@@ -1,4 +1,3 @@
-import { FinalCta } from "@/components/final-cta";
 import { ItemGrid } from "@/components/item-grid";
 import { PageHero } from "@/components/page-hero";
 import { buildMetadata } from "@/lib/utils";
@@ -18,7 +17,6 @@ export default function WhatWeTakePage() {
         description="Furniture, appliances, debris, fixtures, clutter, and more. If you are not sure, send us a photo by text."
       />
       <ItemGrid />
-      <FinalCta />
     </>
   );
 }

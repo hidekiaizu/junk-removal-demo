@@ -1,4 +1,3 @@
-import { FinalCta } from "@/components/final-cta";
 import { PageHero } from "@/components/page-hero";
 import { SectionHeading } from "@/components/section-heading";
 import { aboutPoints } from "@/content/site";
@@ -36,7 +35,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      <FinalCta />
     </>
   );
 }

@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <p className="font-display text-4xl uppercase tracking-[0.08em] text-brand">{company.name}</p>
           <p className="mt-4 max-w-xl text-sm leading-7 text-white/72">
-            Local junk removal made simple. Free estimates, fast scheduling, and straightforward service for homes and businesses.
+            Local junk removal made simple. Free estimates, fast scheduling, and straightforward service.
           </p>
           <div className="mt-6 flex flex-wrap gap-3 text-sm font-semibold">
             <a href={company.phoneHref} className="text-brand transition hover:text-white">
@@ -16,9 +16,6 @@ export function Footer() {
             </a>
             <a href={company.textHref} className="text-brand transition hover:text-white">
               Text for estimate
-            </a>
-            <a href={`mailto:${company.email}`} className="text-brand transition hover:text-white">
-              {company.email}
             </a>
           </div>
         </div>

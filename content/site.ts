@@ -4,7 +4,6 @@ import {
   Building2,
   Clock3,
   Home,
-  Leaf,
   MessageSquareText,
   PackageOpen,
   Phone,
@@ -25,11 +24,10 @@ export const company = {
   textHref: "sms:+17188871399",
   textLabel: "Text for Free Estimate",
   callLabel: "Call Now",
-  email: "estimates@gotaguydemo.com",
   serviceArea: "Serving local homes, shops, offices, and job sites",
-  placeholderAddress: "123 Main Street, Your City, ST 00000",
+  placeholderAddress: "1196 Castle Avenue",
   workerPhoto: "/images/IMG_6650.jpg",
-  ecoPhoto: "/images/72a4a30f9db3560da0f8b17d71cf101a2180242b0e493f12239e80669dd47007.png"
+  ecoPhoto: "/images/no grey guy no for sale.png"
 } as const;
 
 export const navigation = [
@@ -69,7 +67,7 @@ export const serviceCards = [
   },
   {
     title: "Commercial Junk Removal",
-    description: "Keep offices, retail spaces, warehouses, and rental turnovers moving without downtime.",
+    description: "Offices, retail spaces, warehouses, and rental turnovers",
     href: "/commercial-junk-removal",
     icon: BriefcaseBusiness,
     bullets: ["After-hours scheduling available", "Fast pickups for property managers", "Reliable crews for repeat jobs"]
@@ -112,7 +110,7 @@ export const itemGroups = [
 export const benefits = [
   {
     title: "Free Estimates",
-    description: "Call or text for a quick quote before we load a thing.",
+    description: "Call or text for a quick quote.",
     icon: MessageSquareText
   },
   {
@@ -152,8 +150,8 @@ export const commercialHighlights = [
 
 export const ecoPoints = [
   "Reusable items are separated for donation when possible.",
-  "Metal, cardboard, and electronics are sorted for recycling streams.",
-  "We work with 1196 Castle Ave to reduce landfill waste and keep more material in circulation."
+  "Metal, cardboard, and electronics are sorted for recycling.",
+  "We partnered with 1196 Castle Avenue (Big bargain store) to reduce landfill waste"
 ] as const;
 
 export const aboutPoints = [
@@ -175,12 +173,6 @@ export const contactChannels = [
     value: company.phoneDisplay,
     href: company.textHref,
     icon: MessageSquareText
-  },
-  {
-    title: "Email for Detailed Requests",
-    value: company.email,
-    href: `mailto:${company.email}`,
-    icon: Leaf
   }
 ] as const;
 

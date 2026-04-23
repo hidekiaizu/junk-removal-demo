@@ -1,5 +1,4 @@
 import { EstimateForm } from "@/components/estimate-form";
-import { FinalCta } from "@/components/final-cta";
 import { PageHero } from "@/components/page-hero";
 import { SectionHeading } from "@/components/section-heading";
 import { residentialHighlights } from "@/content/site";
@@ -39,7 +38,6 @@ export default function ResidentialPage() {
         </div>
       </section>
       <EstimateForm />
-      <FinalCta />
     </>
   );
 }

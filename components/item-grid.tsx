@@ -9,12 +9,10 @@ export function ItemGrid({ preview = false }: ItemGridProps) {
   const items = preview ? itemGroups.slice(0, 8) : itemGroups;
 
   return (
-    <section className="section-shell">
+    <section className="section-shell bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="What We Take"
           title={preview ? "Common junk we haul every week" : "A wide range of junk and bulky items"}
-          description="Not sure if your items fit? Call or text a photo and we can usually tell you right away."
         />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item) => (
