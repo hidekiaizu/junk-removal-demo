@@ -18,14 +18,14 @@ import {
 export const company = {
   name: "Got A Guy",
   headline: "Need junk removed?",
-  supportingCopy: ["All you need to do is call a guy", "You point. We haul."],
+  supportingCopy: ["All you need to do is call Got A Guy", "You point. We haul."],
   phoneDisplay: "(718) 887-1399",
   phoneHref: "tel:+17188871399",
   textHref: "sms:+17188871399",
   textLabel: "Text for Free Estimate",
   callLabel: "Call Now",
   serviceArea: "Serving local homes, shops, offices, and job sites",
-  placeholderAddress: "1196 Castle Avenue",
+  placeholderAddress: "1196 Castleton Ave",
   workerPhoto: "/images/IMG_6650.jpg",
   ecoPhoto: "/images/no grey guy no for sale.png"
 } as const;
@@ -151,7 +151,7 @@ export const commercialHighlights = [
 export const ecoPoints = [
   "Reusable items are separated for donation when possible.",
   "Metal, cardboard, and electronics are sorted for recycling.",
-  "We partnered with 1196 Castle Avenue (Big bargain store) to reduce landfill waste"
+  "We partnered with 1196 Castleton Ave (Big bargain store) to reduce landfill waste"
 ] as const;
 
 export const aboutPoints = [

@@ -1,6 +1,6 @@
 type SectionHeadingProps = {
   eyebrow?: string;
-  title: string;
+  title?: string;
   description?: string;
   align?: "left" | "center";
   theme?: "light" | "dark";
@@ -22,11 +22,13 @@ export function SectionHeading({
           {eyebrow}
         </p>
       ) : null}
-      <h2
-        className={`mt-3 font-display text-4xl uppercase leading-none tracking-[0.04em] md:text-5xl ${isDark ? "text-white" : "text-black"}`}
-      >
-        {title}
-      </h2>
+      {title ? (
+        <h2
+          className={`mt-3 font-display text-4xl uppercase leading-none tracking-[0.04em] md:text-5xl ${isDark ? "text-white" : "text-black"}`}
+        >
+          {title}
+        </h2>
+      ) : null}
       {description ? (
         <p className={`mt-4 text-base leading-8 ${isDark ? "text-white/72" : "text-muted"}`}>{description}</p>
       ) : null}

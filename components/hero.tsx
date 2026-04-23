@@ -18,7 +18,7 @@ export function Hero() {
             Need <span className="text-red-500">junk</span> removed?
           </h1>
           <div className="mt-5 space-y-2">
-            <p className="max-w-2xl text-lg leading-8 text-white/82 sm:text-xl">Call a guy.</p>
+            <p className="max-w-2xl text-lg leading-8 text-white/82 sm:text-xl">Call Got A Guy.</p>
             <p className="text-xl font-bold tracking-[0.12em] text-brand sm:text-2xl">{company.phoneDisplay}</p>
           </div>
           <div className="mt-8">

@@ -10,7 +10,7 @@ export function ServiceCards() {
         <SectionHeading
           eyebrow="Services"
           title="Residential and Commercial Junk Removal"
-          description="We keep the offer simple: show us the junk, get a free estimate, and let us haul it out."
+          description="Show us the junk, get a free estimate, and let us haul it out."
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           {serviceCards.map((card) => {

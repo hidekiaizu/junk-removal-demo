@@ -6,9 +6,8 @@ export function ProcessSteps() {
     <section className="section-shell bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="How It Works"
-          title="Simple from first contact to final sweep"
-          description="No complicated booking flow. Just a quick call or text, a clear estimate, and a pickup time that works."
+          title="How It Works"
+          description="Just a quick call or text, a clear estimate, and a pickup time that works."
           align="center"
         />
         <div className="relative mt-10">
