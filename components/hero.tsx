@@ -14,7 +14,7 @@ export function Hero() {
             <span className="h-2 w-2 rounded-full bg-brand" />
             Staten Island Junk Removal
           </div>
-          <h1 className="mt-4 font-display text-6xl uppercase leading-[0.9] tracking-[0.04em] text-white sm:text-7xl lg:text-8xl">
+          <h1 className="mt-6 font-display text-6xl uppercase leading-[0.9] tracking-[0.04em] text-white sm:text-7xl lg:text-8xl">
             Need <span className="text-red-500">junk</span> removed?
           </h1>
           <div className="mt-5 space-y-2">
@@ -30,21 +30,19 @@ export function Hero() {
             <span className="rounded-full border border-white/12 bg-white/6 px-4 py-3">Donation + Recycling First</span>
           </div>
         </div>
-        <div className="relative animate-rise-in [animation-delay:120ms]">
-          <div className="absolute -left-6 top-6 hidden h-28 w-28 rounded-full border border-brand/40 lg:block" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#151515] shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
-            <div className="surface-grid absolute inset-0 z-10 opacity-20" />
-            <div className="min-h-[460px]">
+        <div className="relative mt-6 animate-rise-in self-start [animation-delay:120ms] sm:mt-8 lg:mt-12 lg:flex lg:justify-end lg:items-start">
+          <div className="relative h-fit w-full max-w-[500px] overflow-hidden rounded-[2rem] bg-[#151515] shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
+            <div className="relative aspect-[1.34/1] min-h-[280px] sm:min-h-[320px]">
               <Image
                 src={company.workerPhoto}
                 alt="Got A Guy junk removal worker standing beside a branded truck"
-                width={1200}
-                height={1200}
-                className="h-full min-h-[460px] w-full object-cover object-center"
+                fill
+                sizes="(min-width: 1024px) 500px, 100vw"
+                className="object-cover object-center"
                 priority
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/36 to-transparent" />
+            <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-t from-black via-black/36 to-transparent" />
           </div>
         </div>
       </div>

@@ -41,18 +41,18 @@ export const navigation = [
 
 export const processSteps = [
   {
-    title: "Call a Guy",
+    title: "CALL",
     description: "Tell us what has to go and send a few photos if that is easier.",
     icon: Phone
   },
   {
-    title: "Schedule a Guy",
+    title: "SCHEDULE",
     description: "Pick a time that works for you and get a clear free estimate.",
     icon: Clock3
   },
   {
-    title: "Get a Guy",
-    description: "We show up, load it out, clean up, and get your space back.",
+    title: "ARRIVE",
+    description: "We show up, load our truck, and give you your space back.",
     icon: Truck
   }
 ] as const;
@@ -188,6 +188,39 @@ export const overviewStats = [
   { label: "Scheduling", value: "Fast local pickup" },
   { label: "Disposal focus", value: "Donate + recycle first" }
 ] as const;
+
+export const googleProfile = {
+  businessName: "Got A Guy Moving & Junk Removal",
+  rating: "5.0",
+  reviewLabel: "5-star Google rating",
+  phoneDisplay: "(718) 887-1399",
+  hoursLabel: "Open 24 hours",
+  mapsHref:
+    "https://www.google.com/maps/place/Got+A+Guy+Moving+%26+Junk+Removal/@40.073132,-74.6318775,372057m/data=!3m2!1e3!4b1!4m6!3m5!1s0x61a8718e8320fd8d:0xc840a442bb83b944!8m2!3d40.073132!4d-74.6318776!16s%2Fg%2F11x85ts225?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D",
+  reviews: [
+    {
+      name: "Angela Klezmer",
+      meta: "Local Guide · 8 reviews · 1 photo",
+      date: "3 months ago",
+      body:
+        "Got A Guy Moving and Junk Removal did an amazing job today helping with my daughter’s move. Christian and Brandon were outstanding — professional, fast, and extremely efficient. The entire move was smooth and stress-free, and they handled everything with care. They worked quickly without rushing or cutting corners. I would absolutely recommend this company to anyone who needs reliable movers or junk removal services. Thank you so much again. Angela and Ashley"
+    },
+    {
+      name: "Diane Lambiase",
+      meta: "11 reviews",
+      date: "5 months ago",
+      body:
+        "Called Chris to move from Staten Island to New Jersey and him and his team did an awesome job! It was a rather chaotic time and they made it less stressful. They were professional and also kind and very helpful. They also took furniture and a lot of other things to junk. I can’t say enough. Price was great also. Definitely would highly recommend."
+    },
+    {
+      name: "Steven Bonanno",
+      meta: "2 reviews · 1 photo",
+      date: "6 months ago",
+      body:
+        "I’ve used a few junk removal services over the years, but Got A Guy Moving & Junk Removal blew them all away. From the moment I reached out, communication was fast, clear, and friendly. They showed up right on time, worked quickly and efficiently, and handled everything with professionalism and care. What really stood out was how respectful and detail-oriented the crew was. They removed years of clutter from my garage, basement, and yard without leaving so much as a scrap behind. They even swept up afterward! The pricing was honest and reasonable, especially considering how much work they did — and they never tried to upsell or add hidden fees. You can tell these guys take pride in what they do. They made a huge job look easy and left the space spotless. If you’re looking for a company that’s reliable, hardworking, and genuinely cares about customer satisfaction, Got A Guy Moving & Junk Removal is the one to call. Five stars all the way — best of the best!"
+    }
+  ]
+} as const;
 
 export const pageIntros = {
   residential: {

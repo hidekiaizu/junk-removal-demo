@@ -78,11 +78,19 @@ a {
     @apply py-16 lg:py-24;
   }
 
+  .review-preview {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+  }
+
   .surface-grid {
     background-image:
-      linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
-    background-size: 28px 28px;
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
   }
 
   .soft-grid {
@@ -90,6 +98,7 @@ a {
       linear-gradient(rgba(18, 18, 18, 0.05) 1px, transparent 1px),
       linear-gradient(90deg, rgba(18, 18, 18, 0.05) 1px, transparent 1px);
     background-size: 26px 26px;
+    pointer-events: none;
   }
 
   .button-primary {

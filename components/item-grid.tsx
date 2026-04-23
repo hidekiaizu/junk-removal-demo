@@ -12,7 +12,7 @@ export function ItemGrid({ preview = false }: ItemGridProps) {
     <section className="section-shell bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title={preview ? "Common junk we haul every week" : "A wide range of junk and bulky items"}
+          title={preview ? "Common junk we haul every day" : "A wide range of junk and bulky items"}
         />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item) => (

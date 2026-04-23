@@ -1,6 +1,7 @@
 import { BenefitsGrid } from "@/components/benefits-grid";
 import { EcoSection } from "@/components/eco-section";
 import { EstimateForm } from "@/components/estimate-form";
+import { GoogleReviews } from "@/components/google-reviews";
 import { Hero } from "@/components/hero";
 import { ItemGrid } from "@/components/item-grid";
 import { ProcessSteps } from "@/components/process-steps";
@@ -18,6 +19,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <GoogleReviews />
       <ProcessSteps />
       <ServiceCards />
       <ItemGrid preview />

@@ -18,16 +18,16 @@ export function ProcessSteps() {
             return (
               <article
                 key={step.title}
-                className="relative rounded-[2rem] border border-black/10 bg-canvas p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-[0_26px_70px_rgba(0,0,0,0.12)]"
+                className="relative rounded-[2rem] border border-black/10 bg-canvas p-7 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-[0_26px_70px_rgba(0,0,0,0.12)]"
               >
                 <div className="flex items-center justify-between">
-                  <span className="font-display text-5xl text-black/12">0{index + 1}</span>
+                  <span className="font-display text-6xl text-black/12">0{index + 1}</span>
                   <div className="rounded-2xl bg-brand p-3 text-black">
                     <Icon className="h-6 w-6" />
                   </div>
                 </div>
-                <h3 className="mt-6 font-display text-3xl uppercase tracking-[0.04em] text-black">{step.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-muted">{step.description}</p>
+                <h3 className="mt-7 font-display text-4xl uppercase tracking-[0.04em] text-black md:text-[2.7rem]">{step.title}</h3>
+                <p className="mt-4 text-base leading-8 text-muted">{step.description}</p>
               </article>
             );
           })}
