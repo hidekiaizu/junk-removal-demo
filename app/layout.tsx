@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Manrope } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
@@ -31,6 +32,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <MobileCtaBar />
+        <Analytics />
       </body>
     </html>
   );
